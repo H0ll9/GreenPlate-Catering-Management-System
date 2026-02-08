@@ -63,7 +63,6 @@ CREATE TABLE requests (
 - Click Submit Request.
 - You will see a success message with a Request ID (e.g., REQ-1234).
 <img width="1905" height="986" alt="Image" src="https://github.com/user-attachments/assets/a08f6a2c-2c26-4677-a9fb-5c1ba9aa3a3a" />
-
 ## Scenario 2: Admin manages the request
 - Scroll to the bottom of the Home Page and click "Admin Staff Login" (or go to admin.php).
 - You will see the new request in the table with status "Pending".
