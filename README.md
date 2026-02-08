@@ -77,6 +77,8 @@ CREATE TABLE requests (
 
 <img width="1907" height="973" alt="Image" src="https://github.com/user-attachments/assets/62d391d1-8330-4ba7-b356-e144cbb6dcc7" />
 
+<img width="1918" height="502" alt="Image" src="https://github.com/user-attachments/assets/b9c2d8ca-fd90-494f-ae1c-00a1d7109819" />
+
 ## Scenario 3: Customer checks status
 - Go back to the Home Page.
 - Click "Track Request" in the navigation bar.
@@ -84,3 +86,5 @@ CREATE TABLE requests (
 - The page displays the request with a Green "Approved" Badge.
 
 <img width="1898" height="978" alt="Image" src="https://github.com/user-attachments/assets/d6bafef7-8ba7-46c3-8413-cdcd43ff42e0" />
+
+<img width="1898" height="977" alt="Image" src="https://github.com/user-attachments/assets/f4f1493e-6cdd-415b-95f8-af3429378726" />
