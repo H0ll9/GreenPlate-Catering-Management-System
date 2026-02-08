@@ -57,18 +57,22 @@ CREATE TABLE requests (
 # 📖 Demonstration (How to Use)
 ## Home Page
 <img width="1903" height="979" alt="Image" src="https://github.com/user-attachments/assets/51fa74de-19ab-403e-a8f0-fc672fbf94ef" />
+
 ## Scenario 1: Customer submits a request
 - On the Home Page, click the "Book Now" button.
 - Fill in the Booking Form (Name, Phone, Date, Location, etc.).
 - Click Submit Request.
 - You will see a success message with a Request ID (e.g., REQ-1234).
+  
 <img width="1905" height="986" alt="Image" src="https://github.com/user-attachments/assets/a08f6a2c-2c26-4677-a9fb-5c1ba9aa3a3a" />
+
 ## Scenario 2: Admin manages the request
 - Scroll to the bottom of the Home Page and click "Admin Staff Login" (or go to admin.php).
 - You will see the new request in the table with status "Pending".
 - View Details: Click the Blue Eye (👁️) icon to see the full form details.
 - Approve: Click the Green Check (✓) button.
 - The status updates to "Approved" in the database.
+  
 <img width="1908" height="951" alt="Image" src="https://github.com/user-attachments/assets/f8f3a3ec-8fd5-4ea0-9434-380f7196dab9" />
 
 <img width="1907" height="973" alt="Image" src="https://github.com/user-attachments/assets/62d391d1-8330-4ba7-b356-e144cbb6dcc7" />
