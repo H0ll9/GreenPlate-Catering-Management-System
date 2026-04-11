@@ -6,11 +6,11 @@
     <title>GreenPlate Catering | Premium Vegetarian Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        /* --- CSS VARIABLES --- */
+       
         :root {
-            --primary-color: #d63031; /* Deep Red */
+            --primary-color: #d63031; 
             --primary-dark: #b71540;
-            --accent-green: #00b894; /* Fresh Green */
+            --accent-green: #00b894; 
             --text-dark: #3e3e3a;
             --text-light: #42484a;
             --bg-off-white: #fdfbf7;
@@ -200,6 +200,7 @@
         <div class="nav-links">
             <a href="index.php">Home</a>
             <a href="#how">How it works</a>
+            <a href="feedback.php">Leave Feedback</a>
             <a href="check_status.php">Track Request</a>
             <a href="client.php" class="btn-nav">Book Now</a>
         </div>
