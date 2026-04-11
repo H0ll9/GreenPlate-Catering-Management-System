@@ -45,6 +45,27 @@ CREATE TABLE requests (
     status ENUM('Pending', 'Approved', 'Rejected') DEFAULT 'Pending',
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+ALTER TABLE requests ADD COLUMN selected_menu TEXT AFTER instructions;
+
+CREATE TABLE admins (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+
+-- Insert default admin (Password is 'admin123')
+
+INSERT INTO admins (username, password) VALUES 
+('admin', '$2y$10$YourHashedPasswordStringHere');
+
+CREATE TABLE feedbacks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_name VARCHAR(100) NOT NULL,
+    rating INT NOT NULL, -- 1 to 5
+    message TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 ```
 
 ## Configuration
